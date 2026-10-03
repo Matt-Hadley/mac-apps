@@ -1,0 +1,7 @@
+# HadleyNetwork Macs — apps kept installed and up to date by the app updater (Installomator).
+# Seed for the public repo Matt-Hadley/mac-apps (file: apps.txt). One entry per line.
+#   <installomator label>   — any label from https://github.com/Installomator/Installomator/blob/main/Labels.txt
+#   custom|<App Name as in /Applications>|<type>|<https url>|<TeamID>  — Team ID must be allowed in the package
+# Office and The Unarchiver come from Apple Business (App Store licences), not from here.
+claudedesktop
+custom|UniFi Endpoint|pkg|https://download.uid.ui.com/?app=DESKTOP-IDENTITY-STANDARD-MACOS|4P645293E8
