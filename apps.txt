@@ -4,4 +4,5 @@
 #   custom|<App Name as in /Applications>|<type>|<https url>|<TeamID>  — Team ID must be allowed in the package
 # Office and The Unarchiver come from Apple Business (App Store licences), not from here.
 claudedesktop
+rectangle
 custom|UniFi Endpoint|pkg|https://download.uid.ui.com/?app=DESKTOP-IDENTITY-STANDARD-MACOS|4P645293E8
