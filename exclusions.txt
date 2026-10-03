@@ -1,6 +1,4 @@
-# HadleyNetwork Macs — apps the updater must never touch, even though someone installed them
-# and Installomator has a label for them (e.g. an app deliberately kept on an older version).
-# Seed for the public repo Matt-Hadley/mac-apps (file: exclusions.txt).
-# One Installomator label per line. The log names the label it would use for each app:
-#   grep 'label' /Library/Logs/HadleyNetwork/app-updater.log
+# Apps the updater must never touch, even though someone installed them and Installomator has a
+# label for them (e.g. an app deliberately kept on an older version).
+# One Installomator label per line. The updater's log names the label it uses for each app.
 # Required apps (apps-required.txt) are always kept current; listing them here has no effect.

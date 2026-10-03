@@ -1,12 +1,11 @@
-# HadleyNetwork Macs — apps every Mac must have. The app updater installs them if missing and
-# keeps them current. Seed for the public repo Matt-Hadley/mac-apps (file: apps-required.txt).
+# Apps every Mac must have. The app updater installs them if missing and keeps them current.
 # One entry per line:
 #   <installomator label>   — any label from https://github.com/Installomator/Installomator/blob/main/Labels.txt
-#   custom|<App Name as in /Applications>|<type>|<https url>|<TeamID>[|version=url|always][|blocking=ignore|silent_fail|kill]
-#                           — Team ID must be allowed in the package
+#   custom|<App Name as in /Applications>|<type>|<https url>|<TeamID>[|version=url][|blocking=ignore|silent_fail]
+#                           — the Team ID and the URL's host must be allowed in the updater
 # Apps people install themselves are kept current too (if Installomator knows them); list any
 # that must be left alone in exclusions.txt.
-# Office and The Unarchiver come from Apple Business (App Store licences), not from here.
+# Office and The Unarchiver come from the App Store, not from here.
 claudedesktop
 rectangle
 swiftdialog
